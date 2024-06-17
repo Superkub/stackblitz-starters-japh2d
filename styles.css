@@ -1,0 +1,59 @@
+/* Generelle stiler */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Flexbox container */
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Seksjonsstiler */
+.section {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.home {
+  background-color: #f4f4f4;
+}
+
+.about {
+  background-color: #e2e2e2;
+}
+
+.services {
+  background-color: #ccc;
+}
+
+.contact {
+  background-color: #bbb;
+}
+
+/* Flexbox layout for main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Footer stil */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
